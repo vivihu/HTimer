@@ -1,5 +1,5 @@
 # This is Git's per-user configuration file.
-d::Spec.new do |s|
+pod::Spec.new do |s|
   s.name         = "HTimer"
   s.version      = "1.0.0"
   s.summary      = "解决定时器循环引用的问题；使用block回调"
